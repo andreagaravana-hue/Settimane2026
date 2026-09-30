@@ -6,7 +6,8 @@ a = float(input("Cateto 1: "))
 
 c = float(input("Ipotenusa: "))
 
-if a>0:
+if a>0 and c>0:
+
     if a > c:
         print("Il cateto non deve essere più lungo dell'ipotenusa")
         print("Non è un triangolo valido")
