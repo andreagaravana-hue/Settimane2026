@@ -52,6 +52,6 @@ while totale < 10:
 
     i += 1
 
-    tatle += 1
+    totale += 1
 
     print(i, totale)
