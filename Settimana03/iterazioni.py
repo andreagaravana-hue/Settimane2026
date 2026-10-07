@@ -16,3 +16,13 @@ print()
 for i in range(len(NOME)):
     print (i)
     print (range(len(NOME)))
+
+print()
+
+for i in range(3,5):
+    print(i)
+
+print ()
+
+for i, lettera in enumerate(NOME):
+    print(i, lettera)
