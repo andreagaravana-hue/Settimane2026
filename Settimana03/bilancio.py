@@ -42,7 +42,7 @@ print("Anno: " + str(anno) + "\nSaldo: "+ str(saldo) + "\nDifferenza: "+ str(dif
 
 
 
-
+#test while
 
 i = 0
 

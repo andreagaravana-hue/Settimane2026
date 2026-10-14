@@ -19,10 +19,10 @@ nunmero = float(input("Dammi un numero: "))
 contatore = 0
 if numero < 0:
     finito = True
-    while not finito:
+    contatore = 0
+    while finito:
         contatore += 1
         totale = totale + numero
-        print (totale)
         numero = float(input("Dammi un numero: "))
         if numero < 0:
             finito = True
