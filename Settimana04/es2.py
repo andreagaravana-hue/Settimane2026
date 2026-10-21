@@ -16,3 +16,17 @@ while i < 10:
 
 differenza = somma_pari - somma_dispari
 print ("Il valore della differenza tra la somma dei numeri pari e la somma dei numeri dispari è: ", differenza)
+
+
+#oppure con range e for
+
+for i in range (10):
+    x = int (input ("Inserire un numero intero: "))
+    if x % 2 == 0:
+        somma_pari = somma_pari + x
+    else: 
+        somma_dispari = somma_dispari + x
+
+
+
+        
