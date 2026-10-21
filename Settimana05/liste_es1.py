@@ -38,3 +38,13 @@ for i in range (len(numeri) - 1, -1, -1):
     if numeri[i] > 5:
         print ("Devo cancellare il numero ", numeri[i], " alla posizione ", i)
         numeri.pop(i) #comando per cancellare un elemento dalla lista
+print (numeri)
+
+#oppure...
+
+altri = []
+
+for v in numeri:
+    if v <= 5:
+        altri.append (v)    
+print (altri)  
