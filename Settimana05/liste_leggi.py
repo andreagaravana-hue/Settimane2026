@@ -1,18 +1,21 @@
-#Inserisci 4 numeri interi e memorizzali in una lista
+# Inserisci da tastiera 4 numeri interi e memorizzali
+# in una lista
 
-numeri = []  #lista vuota
+numeri = []
+for i in range(4):
+    n = int(input("Numero "))
+    numeri.append(n)
 
-for i in range (4):
-    n = int (input ("Inserisci un numero intero: "))
-    numeri.append (n)  #aggiungo il numero alla lista
+    # numeri[i] = n  # no perché la posizione i non esiste ancora
 
-print (numeri)
+    print(numeri)
 
-#calcola una lista che contenga il doppio dei valori appena letti
+# Calcola una lista che contenga il doppio dei valiro
+# appena letti
 
-doppi =[]
-
+doppi = []
 for v in numeri:
-    doppi.append (v * 2)
+    doppi.append( v*2 )
 
-print ("Lista dei doppi: ", doppi)
+print(numeri)
+print(doppi)
