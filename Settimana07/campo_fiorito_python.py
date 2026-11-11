@@ -73,4 +73,27 @@ for riga in range(righe):
     print (tabella[riga])
 
 
+from pprint import pprint
+
+N = int ( input ("Inserire il lato del campo: "))
+M = int ( input ("Inserire il numero di fiori: "))
+
+campo = []
+
+for i in range(N):
+    nuova = []
+    for col in range (N):
+        nuova.append(False)
+    campo.append(nuova)
+
+pprint (campo)
+
+for fiore in range (M):
+    riga_fiore = randint (0, N-1)
+    col_fiore = randint (0, N-1)
+    while campo[riga_fiore][col_fiore] == True:
+        riga_fiore = randint (0, N-1)
+        col_fiore = randint (0, N-1)
+
+    campo [riga_fiore][col_fiore] = True
 

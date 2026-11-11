@@ -41,3 +41,6 @@ seguenti tre casi:
 🌸🟢🟢🌸  1331
 🟢🟢🌸🟢  1212
 ```
+
+
+from random import randint
