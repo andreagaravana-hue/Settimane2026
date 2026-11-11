@@ -27,3 +27,11 @@ Risultato:
 
 nomi = ['Peter', 'Clark', 'Bruce', 'Tony', 'Steve', 'Diana', 'Barry', 'Arthur']
 cognomi = ['Parker', 'Kent', 'Wayne', 'Stark', 'Rogers', 'Prince', 'Allen', 'Curry']
+
+nuova = []
+for i in range (len(nomi)):
+    completo = nomi[i] + " " + cognomi [i]
+    nuova.append(completo)
+    
+    
+print (nuova)

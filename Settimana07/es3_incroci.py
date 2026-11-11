@@ -20,3 +20,14 @@ Nello stesso luogo: giorno 1
 Nello stesso luogo: giorno 3
 Nello stesso luogo: giorno 6
 """
+
+colonne = 7
+righe = 3
+
+for col in range(colonne):
+    rig = 0
+    if luoghi[rig][col] == luoghi [rig+1][col]:
+        if luoghi [rig+1][col] == luoghi [rig+2][col]:
+            print ("Nello stesso luogo: giorno ", col +1)
+            
+         
