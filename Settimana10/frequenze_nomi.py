@@ -9,7 +9,7 @@ for nome in nomi:
     #if nome == "Anna"   HARD CODED
     #conta_anna += 1
     #insie_nomi.append(nome)
-    nome=nome.lower()
+    #nome=nome.lower() per avere i nomi minuscoli
     if nome in conte_nomi.keys():
         conte_nomi[nome] = conte_nomi[nome] + 1
     else:
